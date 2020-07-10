@@ -25,6 +25,7 @@ RUN apt-get install -y php
 RUN apt-get install -y php-mysql
 RUN apt-get install -y pngtools
 RUN apt-get install -y python3-pip
+RUN apt-get install -y rsync
 RUN apt-get install -y screen
 RUN apt-get install -y smbmap
 RUN apt-get install -y sqlmap
